@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgb(255, 255, 255);
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.1);
   --surface-color: rgba(255, 255, 255, 0.425);
   --surface-color-rover: rgba(0, 0, 0, 0.5);
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-rover: rgba(255, 255, 255, 0.5);
   --hightlight-color: rgba(0, 0, 0, 0.123);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/assets/sun.svg);
 }
 
 body {
