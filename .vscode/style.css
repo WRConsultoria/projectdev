@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
  }
 
 body * {
@@ -140,6 +141,7 @@ ul li a:hover {
   padding: 16px;
   transition: background 0.2s;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 
 #social-links a:hover {
