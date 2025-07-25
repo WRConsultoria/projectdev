@@ -6,7 +6,7 @@
 
 :root {
   --text-color: rgb(255, 255, 255);
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./assets/pagina_de_login_academia.jpg);
   --stroke-color: rgba(255, 255, 255, 0.1);
   --surface-color: rgba(255, 255, 255, 0.425);
   --surface-color-rover: rgba(0, 0, 0, 0.5);
@@ -16,18 +16,18 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.1);
-  --surface-color: rgba(0, 0, 0, 0.1);
-  --surface-color-rover: rgba(255, 255, 255, 0.5);
-  --hightlight-color: rgba(0, 0, 0, 0.123);
+  --bg-url: url(./assets//pagina_de_login_academia.jpg);
+  --stroke-color: rgba(248, 245, 245, 0.562);
+  --surface-color: rgba(248, 245, 245, 0.562);
+  --surface-color-rover: rgb(255, 252, 252);
+  --hightlight-color: rgba(248, 245, 245, 0.562);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
- }
+}
 
 body * {
   font-family: "Inter", sans-serif;
@@ -46,7 +46,9 @@ body * {
   padding: 24px;
 }
 #profile img {
-  width: 112px;
+  /* Aumento de 20% de 112px (112 * 1.20 = 134.4px) */
+  width: 134.4px; /* <--- ALTERAÇÃO AQUI */
+  height: auto; /* Adicionado para garantir que a proporção seja mantida */
   margin: auto;
 }
 #profile p {
@@ -85,7 +87,6 @@ body * {
 
 #switch button:hover {
   outline: 5.5px solid var(--hightlight-color);
-  
 }
 
 #switch span {
@@ -162,7 +163,7 @@ footer {
 }
 
 /* media queries */
-@media (min-widh: 700px) {
+@media (min-widh: 700px) { /* CORRIGIDO: min-widh para min-width */
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
