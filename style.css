@@ -47,7 +47,7 @@ body * {
 }
 #profile img {
   /* Aumento de 20% de 112px (112 * 1.20 = 134.4px) */
-  width: 134.4px; /* <--- ALTERAÇÃO AQUI */
+  width: 160px; /* <--- ALTERAÇÃO AQUI */
   height: auto; /* Adicionado para garantir que a proporção seja mantida */
   margin: auto;
 }
